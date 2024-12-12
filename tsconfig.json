@@ -13,8 +13,9 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".",                      // Base directory for resolving paths
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"]                    // Map `@` to the root directory
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
